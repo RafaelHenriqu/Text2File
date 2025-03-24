@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    
+.container {
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.explore-button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #0056b3;
+}
+
+}
+
+#Routes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    .container {
+        max-width: 600px;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font-size: 1.2em;
+        margin-bottom: 40px;
+    }
+    
+    .link-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .link-list li {
+        margin: 15px 0;
+        margin-top: 4vh;
+    }
+    
+    .route-link {
+        background-color: #007bff;
+        color: white;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.2em;
+        transition: background-color 0.3s;
+        
+    }
+    
+    .route-link:hover {
+        background-color: #0056b3;
+    }
+    
+}
+
+#Converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    .container {
+        max-width: 600px;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font-size: 1.2em;
+        margin-bottom: 40px;
+    }
+    
+    .converter {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    select, textarea, button {
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 1em;
+    }
+    
+    select {
+        border: 1px solid #007bff;
+        border-radius: 5px;
+    }
+    
+    textarea {
+        border: 1px solid #007bff;
+        border-radius: 5px;
+        resize: none;
+        background-color: #333;
+        color: white;
+    }
+    
+    .convert-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .convert-button:hover {
+        background-color: #0056b3;
+    }
+    
+}
+
+#Calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    
+.container {
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+}
+
+#Money_Converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    .container {
+        max-width: 600px;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        font-size: 1.2em;
+    }
+    
+    input[type="number"], select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    
+    .convert-button {
+        background-color: #007bff;
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2em;
+        transition: background-color 0.3s;
+        cursor: pointer;
+    }
+    
+    .convert-button:hover {
+        background-color: #0056b3;
+    }
+    
+    .result {
+        margin-top: 30px;
+        font-size: 1.5em;
+    }
+    
+}
+

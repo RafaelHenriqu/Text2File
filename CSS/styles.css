@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+#Home .container {
+  max-width: 600px;
+  padding: 20px;
+}
+#Home h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+#Home p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+#Home .explore-button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+#Home .explore-button:hover {
+  background-color: #0056b3;
+}
+
+#Routes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+#Routes .container {
+  max-width: 600px;
+  padding: 20px;
+}
+#Routes h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+#Routes p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+#Routes .link-list {
+  list-style-type: none;
+  padding: 0;
+}
+#Routes .link-list li {
+  margin: 15px 0;
+  margin-top: 4vh;
+}
+#Routes .route-link {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+#Routes .route-link:hover {
+  background-color: #0056b3;
+}
+
+#Converter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+#Converter .container {
+  max-width: 600px;
+  padding: 20px;
+}
+#Converter h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+#Converter p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+#Converter .converter {
+  display: flex;
+  flex-direction: column;
+}
+#Converter select, #Converter textarea, #Converter button {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1em;
+}
+#Converter select {
+  border: 1px solid #007bff;
+  border-radius: 5px;
+}
+#Converter textarea {
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  resize: none;
+  background-color: #333;
+  color: white;
+}
+#Converter .convert-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#Converter .convert-button:hover {
+  background-color: #0056b3;
+}
+
+#Calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+#Calculator .container {
+  max-width: 600px;
+  padding: 20px;
+}
+#Calculator h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+#Calculator p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+#Calculator input, #Calculator select {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+#Calculator button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#Calculator button:hover {
+  background-color: #0056b3;
+}
+#Calculator #result {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+#Money_Converter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+#Money_Converter .container {
+  max-width: 600px;
+  padding: 20px;
+}
+#Money_Converter h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+#Money_Converter .form-group {
+  margin-bottom: 20px;
+}
+#Money_Converter label {
+  font-size: 1.2em;
+}
+#Money_Converter input[type=number], #Money_Converter select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+#Money_Converter .convert-button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+#Money_Converter .convert-button:hover {
+  background-color: #0056b3;
+}
+#Money_Converter .result {
+  margin-top: 30px;
+  font-size: 1.5em;
+}/*# sourceMappingURL=styles.css.map */
