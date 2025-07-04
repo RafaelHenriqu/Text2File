@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://text2filex.netlify.app/sitemap.xml
